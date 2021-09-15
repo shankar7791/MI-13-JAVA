@@ -6,6 +6,7 @@ public class Bitwise {
         int b = 7;
  
         // bitwise and
+   
          System.out.println("a&b = " + (a & b));
  
         // bitwise or
