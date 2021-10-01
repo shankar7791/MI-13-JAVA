@@ -9,7 +9,7 @@ public class Fibonaci
          
          System.out.println("Enter number you want to print series");
           
-         num3= sc.nextInt();
+         num3= sc.nextInt();  
          
          long[] arr = new long [num3];
 

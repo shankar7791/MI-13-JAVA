@@ -12,7 +12,7 @@ class Student
 
 
 public class ArrayObject
-{
+{   
 	public static void main (String[] args)
 	{
 		
