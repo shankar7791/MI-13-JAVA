@@ -7,7 +7,7 @@ class Student
 	{
 		this.roll_no = roll_no;
 		this.name = name;
-	}
+	}  
 }
 
 

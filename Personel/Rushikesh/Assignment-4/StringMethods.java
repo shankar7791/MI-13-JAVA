@@ -5,7 +5,7 @@ public class StringMethods
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-
+  
         int n;
         String str1;
 

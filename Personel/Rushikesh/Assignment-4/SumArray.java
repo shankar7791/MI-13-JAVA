@@ -9,7 +9,7 @@ class SumArray
         	int n;   
         	System.out.println("Enter the number of elements :");
       		 n = sc.nextInt();    
-       	 
+       	    
         	int arr[] = new int[n];
         	
         	System.out.println("Enter the elements of the array :");

@@ -1,4 +1,3 @@
-/*Java Program to Sort an Array in Descending Order*/
 import java.util.Scanner;
 
 public class ArrayDecending
@@ -6,24 +5,24 @@ public class ArrayDecending
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        int n;    //Array Size Declaration
+        int n;    
         System.out.println("Enter the number of elements :");
-        n=sc.nextInt();    //Array Size Initialization
+        n=sc.nextInt();    
         
-        int arr[]=new int[n];    //Array Declaration
+        int arr[]=new int[n];    
         System.out.println("Enter the elements of the array :");
-        for(int i=0;i<n;i++)     //Array Initialization
+        for(int i=0;i<n;i++)   
         {
             arr[i]=sc.nextInt();
         }
         
-        int temp = 0;    //Temporary variable to store the element
+        int temp = 0;   
         
-         for (int i = 0; i < arr.length; i++)   //Holds each Array element
+         for (int i = 0; i < arr.length; i++)   
          {     
-            for (int j = i+1; j < arr.length; j++)    //compares with remaining Array elements
+            for (int j = i+1; j < arr.length; j++)    
             {     
-               if(arr[i] < arr[j]) //Compare and swap
+               if(arr[i] < arr[j]) 
                {    
                    temp = arr[i];    
                    arr[i] = arr[j];    
@@ -34,8 +33,8 @@ public class ArrayDecending
           
         System.out.println();    
             
-        //Displaying elements of array after sorting    
-        System.out.println("Elements of array sorted in descending order: ");    
+        System.out.println("Elements of array sorted in descending order: "); 
+           
         for (int i = 0; i < arr.length; i++) 
         {     
             System.out.print(arr[i] + " ");    
